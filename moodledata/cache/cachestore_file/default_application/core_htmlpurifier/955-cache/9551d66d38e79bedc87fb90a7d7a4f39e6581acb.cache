@@ -1,0 +1,20 @@
+s:1285:"<p>A atividade Questionário permite criar e configurar questionários com questões de vários tipos, incluindo múltipla escolha, verdadeiro ou falso, correspondência, resposta curta entre outras).</p>
+
+<p>O professor pode permitir que o questionário tenha múltiplas tentativas, com questões embaralhadas ou selecionadas aleatoriamente de uma categoria do banco de questões.</p>
+
+<p>Cada tentativa é corrigida automaticamente, com exceção das questões dissertativas, e a nota é registrada no livro de notas do curso.</p>
+
+<p>O professor pode escolher quando e se sugestões, comentários e respostas corretas são mostradas aos estudantes.</p>
+
+<p>Os questionários podem ser utilizados:</p>
+
+<ul>
+<li>Como provas de um curso</li>
+<li>Como pequenos testes para tarefas de leitura ou no final de um tópico</li>
+<li>Como prova de revisão usando questões de provas anteriores</li>
+<li>Enviar comentários imediatos sobre o desempenho</li>
+<li>Para auto-avaliação</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/401/pt_br/mod/quiz/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Mais ajuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abrir em uma nova janela"></i></a></div>
+";
