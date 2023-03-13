@@ -1,0 +1,9 @@
+s:432:"<p>Mostra estatísticas para as sessões onde a presença foi registrada:
+    </p>
+
+<ul><li>
+     </li><li><strong>Sessões</strong>: número de sessões com registro.
+     </li><li><strong>Pontos</strong>: pontos atribuídos com base nas sessões realizadas.
+     </li><li><strong>Porcentagem</strong>: porcentagem de pontos atribuídos no máximo dos pontos possíveis das sessões realizadas.
+     </li></ul>
+";
