@@ -900,6 +900,41 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'mod_zoom/zoomid' => 
+    array (
+      'mode' => 2,
+      'component' => 'mod_zoom',
+      'area' => 'zoomid',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'mod_zoom/zoommeetingsecurity' => 
+    array (
+      'mode' => 1,
+      'component' => 'mod_zoom',
+      'area' => 'zoommeetingsecurity',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'block_xp/filters' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'staticacceleration' => true,
+      'component' => 'block_xp',
+      'area' => 'filters',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'block_xp/ruleevent_eventslist' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'component' => 'block_xp',
+      'area' => 'ruleevent_eventslist',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'repository_googledocs/folder' => 
     array (
       'mode' => 1,
