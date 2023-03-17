@@ -1,0 +1,1 @@
+s:346:"<strong>Rastreamento de pilha: </strong> <ul style="text-align:left;"><li>line 242 of /lib/classes/update/checker.php: core\update\checker_exception thrown</li><li>line 124 of /lib/classes/update/checker.php: call to core\update\checker-&gt;get_response()</li><li>line 213 of /admin/plugins.php: call to core\update\checker-&gt;fetch()</li></ul>";

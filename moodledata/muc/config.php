@@ -935,6 +935,15 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'filter_oembed/embeddata' => 
+    array (
+      'mode' => 1,
+      'ttl' => 3600,
+      'component' => 'filter_oembed',
+      'area' => 'embeddata',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'repository_googledocs/folder' => 
     array (
       'mode' => 1,

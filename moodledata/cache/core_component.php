@@ -288,6 +288,7 @@ $cache = array (
       'course_contacts' => '/var/www/html/moodle/blocks/course_contacts',
       'course_list' => '/var/www/html/moodle/blocks/course_list',
       'course_summary' => '/var/www/html/moodle/blocks/course_summary',
+      'download_certificates' => '/var/www/html/moodle/blocks/download_certificates',
       'enrol_duration' => '/var/www/html/moodle/blocks/enrol_duration',
       'escola_modelo' => '/var/www/html/moodle/blocks/escola_modelo',
       'fale_conosco' => '/var/www/html/moodle/blocks/fale_conosco',
@@ -345,6 +346,7 @@ $cache = array (
       'mathjaxloader' => '/var/www/html/moodle/filter/mathjaxloader',
       'mediaplugin' => '/var/www/html/moodle/filter/mediaplugin',
       'multilang' => '/var/www/html/moodle/filter/multilang',
+      'oembed' => '/var/www/html/moodle/filter/oembed',
       'tex' => '/var/www/html/moodle/filter/tex',
       'tidy' => '/var/www/html/moodle/filter/tidy',
       'urltolink' => '/var/www/html/moodle/filter/urltolink',
@@ -605,6 +607,7 @@ $cache = array (
     'theme' => 
     array (
       'boost' => '/var/www/html/moodle/theme/boost',
+      'boost_o365teams' => '/var/www/html/moodle/theme/boost_o365teams',
       'classic' => '/var/www/html/moodle/theme/classic',
       'ilb' => '/var/www/html/moodle/theme/ilb',
     ),
@@ -3639,6 +3642,20 @@ $cache = array (
     'filter_mathjaxloader\\privacy\\provider' => '/var/www/html/moodle/filter/mathjaxloader/classes/privacy/provider.php',
     'filter_mediaplugin\\privacy\\provider' => '/var/www/html/moodle/filter/mediaplugin/classes/privacy/provider.php',
     'filter_multilang\\privacy\\provider' => '/var/www/html/moodle/filter/multilang/classes/privacy/provider.php',
+    'filter_oembed\\db\\abstract_dbrow' => '/var/www/html/moodle/filter/oembed/classes/db/abstract_dbrow.php',
+    'filter_oembed\\db\\providerrow' => '/var/www/html/moodle/filter/oembed/classes/db/providerrow.php',
+    'filter_oembed\\forms\\provider' => '/var/www/html/moodle/filter/oembed/classes/forms/provider.php',
+    'filter_oembed\\output\\managementpage' => '/var/www/html/moodle/filter/oembed/classes/output/managementpage.php',
+    'filter_oembed\\output\\providermodel' => '/var/www/html/moodle/filter/oembed/classes/output/providermodel.php',
+    'filter_oembed\\output\\renderer' => '/var/www/html/moodle/filter/oembed/classes/output/renderer.php',
+    'filter_oembed\\plugininfo\\oembedprovider' => '/var/www/html/moodle/filter/oembed/classes/plugininfo/oembedprovider.php',
+    'filter_oembed\\provider\\endpoint' => '/var/www/html/moodle/filter/oembed/classes/provider/endpoint.php',
+    'filter_oembed\\provider\\provider' => '/var/www/html/moodle/filter/oembed/classes/provider/provider.php',
+    'filter_oembed\\service\\oembed' => '/var/www/html/moodle/filter/oembed/classes/service/oembed.php',
+    'filter_oembed\\service\\util' => '/var/www/html/moodle/filter/oembed/classes/service/util.php',
+    'filter_oembed\\task\\update_providers' => '/var/www/html/moodle/filter/oembed/classes/task/update_providers.php',
+    'filter_oembed\\webservice\\ws_provider_manage' => '/var/www/html/moodle/filter/oembed/classes/webservice/ws_provider_manage.php',
+    'filter_oembed\\webservice\\ws_providers' => '/var/www/html/moodle/filter/oembed/classes/webservice/ws_providers.php',
     'filter_tex\\privacy\\provider' => '/var/www/html/moodle/filter/tex/classes/privacy/provider.php',
     'filter_tidy\\privacy\\provider' => '/var/www/html/moodle/filter/tidy/classes/privacy/provider.php',
     'filter_urltolink\\privacy\\provider' => '/var/www/html/moodle/filter/urltolink/classes/privacy/provider.php',
@@ -5355,6 +5372,8 @@ $cache = array (
     'theme_boost_admin_settingspage_tabs' => '/var/www/html/moodle/theme/boost/classes/admin_settingspage_tabs.php',
     'theme_boost_autoprefixer' => '/var/www/html/moodle/theme/boost/classes/autoprefixer.php',
     'theme_boost_boostnavbar' => '/var/www/html/moodle/theme/boost/classes/boostnavbar.php',
+    'theme_boost_o365teams\\output\\core_renderer' => '/var/www/html/moodle/theme/boost_o365teams/classes/output/core_renderer.php',
+    'theme_boost_o365teams\\privacy\\provider' => '/var/www/html/moodle/theme/boost_o365teams/classes/privacy/provider.php',
     'theme_classic\\output\\core_renderer' => '/var/www/html/moodle/theme/classic/classes/output/core_renderer.php',
     'theme_classic\\output\\icon_system_fontawesome' => '/var/www/html/moodle/theme/classic/classes/output/icon_system_fontawesome.php',
     'theme_classic\\privacy\\provider' => '/var/www/html/moodle/theme/classic/classes/privacy/provider.php',
@@ -6256,6 +6275,7 @@ $cache = array (
       ),
       'filter' => 
       array (
+        'oembed' => '/var/www/html/moodle/filter/oembed/lib.php',
         'tex' => '/var/www/html/moodle/filter/tex/lib.php',
       ),
       'editor' => 
@@ -6419,6 +6439,7 @@ $cache = array (
       'theme' => 
       array (
         'boost' => '/var/www/html/moodle/theme/boost/lib.php',
+        'boost_o365teams' => '/var/www/html/moodle/theme/boost_o365teams/lib.php',
         'classic' => '/var/www/html/moodle/theme/classic/lib.php',
         'ilb' => '/var/www/html/moodle/theme/ilb/lib.php',
       ),
@@ -6659,6 +6680,7 @@ $cache = array (
         'mathjaxloader' => '/var/www/html/moodle/filter/mathjaxloader/settings.php',
         'mediaplugin' => '/var/www/html/moodle/filter/mediaplugin/settings.php',
         'multilang' => '/var/www/html/moodle/filter/multilang/settings.php',
+        'oembed' => '/var/www/html/moodle/filter/oembed/settings.php',
         'tex' => '/var/www/html/moodle/filter/tex/settings.php',
         'urltolink' => '/var/www/html/moodle/filter/urltolink/settings.php',
       ),
@@ -6813,6 +6835,7 @@ $cache = array (
       'theme' => 
       array (
         'boost' => '/var/www/html/moodle/theme/boost/settings.php',
+        'boost_o365teams' => '/var/www/html/moodle/theme/boost_o365teams/settings.php',
         'classic' => '/var/www/html/moodle/theme/classic/settings.php',
         'ilb' => '/var/www/html/moodle/theme/ilb/settings.php',
       ),
