@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/escola_modelo/db" VERSION="20180604" COMMENT="XML para criação de tabelas para escola_modelo."
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="ilb_sync_course" COMMENT="Tabela de sincronização de informações de cursos">
+      <FIELDS>
+        <FIELD NAME="course_id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="time_sync" TYPE="int" LENGTH="8" NOTNULL="true" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="course_id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="ilb_sync_certificate" COMMENT="Tabela de sincronização de informações de certificados">
+      <FIELDS>
+        <FIELD NAME="certificate_id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="time_sync" TYPE="int" LENGTH="8" NOTNULL="true" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="certificate_id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="ilb_sync_user_enrolments" COMMENT="Tabela de sincronização de informações de matrículas">
+      <FIELDS>
+        <FIELD NAME="user_enrolment_id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="time_sync" TYPE="int" LENGTH="8" NOTNULL="true" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="user_enrolment_id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

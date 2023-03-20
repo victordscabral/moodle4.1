@@ -1,9 +1,0 @@
-a:13:{s:6:"copied";s:8:"Copiado!";s:4:"copy";s:6:"Copiar";s:15:"copytoclipboard";s:35:"Copiar para área de transferência";s:9:"installer";s:766:"<h3>Por favor, configure esta biblioteca de componentes</h3>
-     <p>Antes de poder ver o conteúdo da biblioteca de componentes, você precisará ter acesso shell à instalação do Moodle com permissão de escrita na pasta /admi/tool/componentlibrary e ter o npm instalado no servidor Moodle. </p>
-     <p>Se você atende a esses requisitos, pode navegar até a pasta raiz do Moodle e executar: </p>
-     <pre>$ npm install</pre>
-     <pre>$ npm install grunt</pre>
-     <p>Isso irá buscar todos os pacotes necessários para construir os documentos da biblioteca de componentes.</p>
-     <p>Depois de instalados, você pode executar:</p>
-     <pre>$ grunt componentlibrary</pre>
-     <p>Para obter mais informações, consulte o arquivo README.md deste plugin</p>";s:10:"pluginname";s:31:"Biblioteca de componentes de UI";s:16:"privacy:metadata";s:62:"The Component library plugin does not store any personal data.";s:8:"runjsdoc";s:114:"JavaScript documentation is generated separately to the component library. To generate it please run `grunt jsdoc`";s:8:"showboth";s:14:"Show with both";s:11:"showdefault";s:15:"Mostrar padrão";s:8:"showhelp";s:17:"Mostrar com ajuda";s:9:"showmixed";s:10:"Show mixed";s:12:"showrequired";s:25:"Mostrar como obrigatório";s:14:"toggleviewinfo";s:37:"Toggle the view of this form instance";}
