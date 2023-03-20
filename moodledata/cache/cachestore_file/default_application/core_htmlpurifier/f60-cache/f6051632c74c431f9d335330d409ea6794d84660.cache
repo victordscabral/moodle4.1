@@ -1,0 +1,10 @@
+s:336:"<p>Carregar as imagens, adicione os links e a descrição do carrossel na primeira página.</p>
+
+<p>Exemplo de HTML para Legendas de Sliders: </p>
+
+<pre>
+</pre><div class="span6 col-sm-6">
+<h3>Pixels e código feitos à mão </h3><h4>para a comunidade Moodle</h4>
+<a href="#" class="submit"> Por favor, favorite nosso tema! </a>
+
+</div>";

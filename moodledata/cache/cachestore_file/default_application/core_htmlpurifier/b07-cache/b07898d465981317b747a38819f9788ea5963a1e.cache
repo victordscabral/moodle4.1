@@ -1,0 +1,2 @@
+s:541:"<p>Here you can control the responsive behaviour of your site (which elements appear on screens of different sizes).<br />By default most non essential items are hidden on mobile devices, being set to appear only on larger screens.<br />You can make elements appears on smaller screens by choosing to display them on "Extra Small" or "Small screens".<br />To gain a better understanding of how these settings work please refer to the Bootstrap 4 documentation:<br /><br />https://getbootstrap.com/docs/4.5/utilities/display/<br /><br /></p>
+";
