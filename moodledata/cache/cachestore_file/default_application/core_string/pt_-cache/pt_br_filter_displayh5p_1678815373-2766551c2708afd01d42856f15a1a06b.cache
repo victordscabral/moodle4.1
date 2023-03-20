@@ -1,7 +1,0 @@
-a:4:{s:18:"allowedsourceslist";s:17:"Fontes permitidas";s:22:"allowedsourceslistdesc";s:425:"Uma lista de URLs a partir das quais os usuários podem incorporar conteúdo H5P. Se nenhuma for especificada, todas as URLs permanecerão como links e não serão exibidas como conteúdo H5P incorporado.
-
-'[id]' é um espaço reservado para o ID do conteúdo do H5P na fonte externa.
-Por exemplo:
-
-- H5P.com: https://[xxxxxx].h5p.com/content/[id]
-- Wordpress: http://myserver/wp-admin/admin-ajax.php?action=h5p_embed&id=[id]";s:10:"filtername";s:10:"Exibir H5P";s:16:"privacy:metadata";s:47:"O filtro H5P não armazena nenhum dado pessoal.";}
