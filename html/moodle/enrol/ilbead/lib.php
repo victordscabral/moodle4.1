@@ -284,7 +284,7 @@ class enrol_ilbead_plugin extends enrol_plugin {
                 $timestart = time();
                 if ($instance->enrolperiod) {
                     $timeend = date("Y/m/d", (string)($timestart + $instance->enrolperiod));
-                    list($year, $month, $day) = explode("/", $timeend);
+                    list($year, $month, $day) = split("/", $timeend);
                     $timeend = (int)strtotime("$year-$month-$day 23:59:59");
                     
                 } else {
@@ -414,7 +414,7 @@ class enrol_ilbead_plugin extends enrol_plugin {
         if ($rusers) {
             $contact = reset($rusers);
         } else {
-            $contact = core_user::get_support_user();
+            $contact = generate_email_supportuser();
         }
 
         // Directly emailing welcome message rather than using messaging.

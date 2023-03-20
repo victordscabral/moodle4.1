@@ -1,0 +1,86 @@
+/** This file is part of Moodle - http://moodle.org/
+ *
+ * Moodle is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Moodle is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * Block Course_Contacts css file.
+ *
+ * @package    block_course_contacts
+ * @author     Mark Ward
+ *             2016 Richard Oelmann
+ * @copyright  Mark Ward
+ * @credits    2016 R. Oelmann
+ *
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+.block_course_contacts br {
+    height: 2px;
+}
+
+.block.block_course_contacts .content .ccard {
+    clear: both;
+    min-height: 50px;
+    height: auto;
+    margin: 3px 0 10px -4px;
+}
+
+.block.block_course_contacts .content .ccard .userpicture {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+
+.block.block_course_contacts .content .ccard .info {
+    position: relative;
+    min-height: 50px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.block.block_course_contacts .content .ccard .info .name {
+    display: inline;
+}
+
+.block.block_course_contacts .content .ccard .info .status {
+    position: relative;
+    float: right;
+    display: inline;
+    margin: 4px 0 0 0;
+}
+
+.block.block_course_contacts .content .ccard .info .comms {
+    color: #444;
+    margin-top: 6px;
+}
+.block.block_course_contacts .content .ccard .info .description {
+    color: #444;
+    margin-top: 6px;
+}
+
+.block.block_course_contacts .content .ccard .info .comms img {
+    margin-right: 3px;
+
+}
+
+div.cocoemailmsgs {
+    text-align: center;
+}
+
+div.cocoemailmsgs * {
+    margin: 1em;
+}
