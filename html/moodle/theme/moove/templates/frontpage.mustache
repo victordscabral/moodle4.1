@@ -115,19 +115,21 @@
                         </div>
                         <div class="col-lg-16 ps-xl-8">
                             <div class="row">
-                                {{#marketingboxes}}
-                                    <div class="col-3">
+                                {{#marketingboxes}}                                
+                                    <div class="col-sm-3 mt-4" >
+                                        <a href="{{{link}}}" >
                                         <div class="card card-body shadow">
-                                            <div align="center">
+                                            <div  align="center">
                                                 <div class="icon-lg text-white rounded-circle">
                                                     <img src="{{{icon}}}">
                                                 </div>
                                                 <div class="col">
-                                                    <h6>{{{heading}}}</h6>                                                    
+                                                    <h6>{{{heading}}}</h6>       
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        </a>
+                                    </div>                                   
                                 {{/marketingboxes}}
                             </div>
                         </div>

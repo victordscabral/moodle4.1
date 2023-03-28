@@ -266,6 +266,8 @@ if ($ADMIN->fulltree) {
         $setting = new admin_setting_confightmleditor($name, $title, '', $default);
         $page->add($setting);
 
+        
+
         for ($i = 1; $i < 9; $i++) {
             $filearea = "marketing{$i}icon";
             $name = "theme_moove/$filearea";
@@ -284,6 +286,12 @@ if ($ADMIN->fulltree) {
             $title = get_string('marketingcontent', 'theme_moove', $i . '');
             $default = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.';
             $setting = new admin_setting_confightmleditor($name, $title, '', $default);
+            $page->add($setting);
+
+            $name = "theme_moove/marketing{$i}link";
+            $title = get_string('marketinglink', 'theme_moove', $i . '');
+            $default = 'https://www.google.com.br/';
+            $setting = new admin_setting_configtext($name, $title, '', $default);
             $page->add($setting);
         }
 

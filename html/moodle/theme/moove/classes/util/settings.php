@@ -165,13 +165,15 @@ class settings {
         if ($templatecontext['displaymarketingbox'] = $this->displaymarketingbox) {
             $templatecontext['marketingheading'] = format_text($this->marketingheading, FORMAT_HTML);
             $templatecontext['marketingcontent'] = format_text($this->marketingcontent, FORMAT_HTML);
+            $templatecontext['marketinglink'] = format_text($this->marketinglink, FORMAT_HTML);
 
             $defaultimage = new \moodle_url('/theme/moove/pix/default_markegingicon.svg');
-
+            
             for ($i = 1, $j = 0; $i < 9; $i++, $j++) {
                 $marketingicon = 'marketing' . $i . 'icon';
                 $marketingheading = 'marketing' . $i . 'heading';
                 $marketingcontent = 'marketing' . $i . 'content';
+                $marketinglink = 'marketing' . $i . 'link';
 
                 $templatecontext['marketingboxes'][$j]['icon'] = $this->$marketingicon ?: $defaultimage->out();
                 $templatecontext['marketingboxes'][$j]['heading'] = $this->$marketingheading ?
@@ -179,6 +181,8 @@ class settings {
                 $templatecontext['marketingboxes'][$j]['content'] = $this->$marketingcontent ?
                     format_text($this->$marketingcontent, FORMAT_HTML) :
                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.';
+                $templatecontext['marketingboxes'][$j]['link'] = $this->$marketinglink ?:
+                    'https://www.google.com.br/';
             }
         }
 
